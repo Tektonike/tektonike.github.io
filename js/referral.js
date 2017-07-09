@@ -2,7 +2,7 @@ var ref_abi = [{
     "constant": true,
     "inputs": [{
         "name": "_player",
-        "type": ""
+        "type": "address"
     }],
     "name": "getAdviser",
     "outputs": [{
