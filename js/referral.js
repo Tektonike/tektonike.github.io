@@ -64,8 +64,8 @@ var ref_abi = [{
     "payable": false,
     "type": "function"
 }]
-var addressReferral = "0xe195eed0e77b48146aa246dadf987d2504ac88cb";
-var operator = "0x6506e2D72910050554D0C47500087c485DAA9689"
+var addressReferral = "0x41bDDd10A982Cd8C10BC242Bea8e32b5D9268be2";
+var operator = "0x41bDDd10A982Cd8C10BC242Bea8e32b5D9268be2"
 
 function sendRefAndOperator(callback) {
     var ks = lightwallet.keystore.deserialize(localStorage.getItem('keystore'));
